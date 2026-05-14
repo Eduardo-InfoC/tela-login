@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #d8dec3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    background-color: #2a2c31;
+    color: white;
+    padding: 20px;
+    width: 760px;
+    height: 510px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #5e6155a6;
+}
+
+.login h1 {
+    background: linear-gradient(to right, transparent, #637566bd, transparent);
+    font-size: 2.5em;
+    text-shadow: 2px 2px 5px #43504669;
+    width: 750px;
+    text-align: center;
+    padding: 4px;
+}
+
+.email, .senha {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+label {
+    font-size: 1.3em;
+}
+
+input {
+    padding: 16px;
+    width: 500px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.363);
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.219);
+}
+
+input::placeholder {
+    font-size: 1.1em;
+    text-indent: 5px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.botao {
+    padding: 16px;
+    border-radius: 25px;
+    width: 500px;
+    border: none;
+    background-color: #d8dec3;
+    font-size: 1.12em;
+}
+
+.botao:hover {
+    background-color: #bdb577;
+}
+
+.cadastro {
+    background-color: #637566;
+}
+
+spam {
+    text-decoration: underline;
+    color: #1f2024;
+}
